@@ -10,3 +10,4 @@ text= str(input("Enter text here: "))
 print(f"Original Text: {text}")
 
 Print(re.findall("[a-z]", text))
+Print(re.findall("\d", text))
