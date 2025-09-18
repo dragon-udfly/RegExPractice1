@@ -11,3 +11,4 @@ print(f"Original Text: {text}")
 
 Print(re.findall("[a-z]", text))
 Print(re.findall("\d", text))
+Print(re.findall("\D", text))
