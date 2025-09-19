@@ -25,3 +25,6 @@ print(f"Number of non word characters: {len(non_whitespace_characters)}")
 
 is_word= re.findall(r'\bis\b', text)
 print(f"Number of 'is': {len(is_word)}")
+
+thing_word= re.findall(r'\bthing\b', text) 
+print(f"Number of 'thing': {len(thing_word)}")
