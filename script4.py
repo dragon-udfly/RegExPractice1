@@ -28,3 +28,6 @@ print(f"Number of 'is': {len(is_word)}")
 
 thing_word= re.findall(r'\bthing\b', text) 
 print(f"Number of 'thing': {len(thing_word)}")
+
+running_word= re.findall(r'\brunning\b', text) 
+print(f"Number of 'running': {len(running_word)}")
