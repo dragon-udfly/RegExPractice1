@@ -5,3 +5,6 @@ text= "This text is containing89, is running34, is walking 45. Not the same thin
 english_characters= re.findall("[a-z]", text)
 print(f"Number of english characters: {len(english_characters)}")
 
+digits= re.findall("\d", text)
+print(f"Number of digits: {len(digits)}")
+
