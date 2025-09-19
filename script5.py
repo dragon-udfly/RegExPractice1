@@ -12,6 +12,6 @@ literal_plus= re.findall("\+", "23 + 34= 57 and is it + correct +")
 print(f"Literal plus: {literal_plus}")
 print(f"Number of literal plus: {len(literal_plus)}")
 
-question_mark= re.findall("\+", "Why? what? how? when?")
+question_mark= re.findall("\?", "Why? what? how? when?")
 print(f"Question mark symbols: {question_mark}")
 print(f"Number of question mark symbols: {len(question_mark)}")
