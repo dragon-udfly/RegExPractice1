@@ -19,3 +19,6 @@ print(f"Number of letters and characters: {len(letters_and_numbers)}")
 
 whitespaces= re.findall("\s", text) 
 print(f"Number of whitespace characters: {len(whitespaces)}")
+
+non_whitespace_characters= re.findall("\S", text) 
+print(f"Number of non word characters: {len(non_whitespace_characters)}")
