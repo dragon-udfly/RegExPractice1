@@ -22,3 +22,6 @@ print(f"Number of whitespace characters: {len(whitespaces)}")
 
 non_whitespace_characters= re.findall("\S", text) 
 print(f"Number of non word characters: {len(non_whitespace_characters)}")
+
+is_word= re.findall(r'\bis\b', text)
+print(f"Number of 'is': {len(is_word)}")
