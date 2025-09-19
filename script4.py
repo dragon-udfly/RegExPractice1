@@ -8,3 +8,6 @@ print(f"Number of english characters: {len(english_characters)}")
 digits= re.findall("\d", text)
 print(f"Number of digits: {len(digits)}")
 
+non_digits= re.findall("\D", text)
+print(f"Number of non digital characters: {len(non_digits)}")
+
