@@ -11,3 +11,5 @@ print(f"Number of digits: {len(digits)}")
 non_digits= re.findall("\D", text)
 print(f"Number of non digital characters: {len(non_digits)}")
 
+non_word_characters= re.findall("\W", text) 
+print(f"Number of non-word characters: {len(non_word_characters)}")
