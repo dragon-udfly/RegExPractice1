@@ -15,3 +15,7 @@ print(f"Number of literal plus: {len(literal_plus)}")
 question_mark= re.findall("\?", "Why? what? how? when?")
 print(f"Question mark symbols: {question_mark}")
 print(f"Number of question mark symbols: {len(question_mark)}")
+
+minus_symbol= re.findall("\-", "23 - 34= the answer is -")
+print(f"Minus symbols: {minus_symbol}")
+print(f"Number of minus symbols: {len(minus_symbol)}")
