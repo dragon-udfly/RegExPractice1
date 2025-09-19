@@ -21,3 +21,7 @@ print(f"Minus symbols: {minus_symbol}")
 print(f"Number of minus symbols: {len(minus_symbol)}")
 
 print(f"Numbers: {re.findall(r'\d+', "3993 t9338nfl3 ")}")
+
+numbers= re.findall(r'\d+', "23 and 30 are the characters on 390 3804 is t3992")
+print(f"Numbers: {numbers}")
+print(f"Numbers count: {len(numbers)}")
