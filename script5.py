@@ -19,3 +19,5 @@ print(f"Number of question mark symbols: {len(question_mark)}")
 minus_symbol= re.findall("\-", "23 - 34= the answer is -")
 print(f"Minus symbols: {minus_symbol}")
 print(f"Number of minus symbols: {len(minus_symbol)}")
+
+print(f"Numbers: {re.findall(r'\d+', "3993 t9338nfl3 ")}")
